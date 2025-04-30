@@ -92,6 +92,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-direction: row;
 }
 
 .tarjeta {
@@ -100,8 +101,11 @@ h2{
     width: 1000px;
     height: 200px;
     border: 1px solid #000;
-    border-radius: 8px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-
+ 
    
